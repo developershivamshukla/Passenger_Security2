@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Complain">
+        <menu>
+            <item
+                android:id="@+id/tweet_complain"
+                android:icon="@drawable/twitter"
+                android:title="Tweet Your Complain" />
+            <item
+                android:id="@+id/sms_complain"
+                android:icon="@drawable/sms_com"
+                android:title="SMS Based Complain" />
+            <item
+                android:id="@+id/web_based_complain"
+                android:icon="@drawable/internet"
+                android:title="Web based Complain" />
+        </menu>
+    </item>
+
+    <item android:title="Track Status">
+        <menu>
+            <item
+                android:id="@+id/webbased"
+                android:icon="@drawable/open_comp"
+                android:title="Web Based Complaint" />
+            <item
+                android:id="@+id/smsbased"
+                android:icon="@drawable/closed_comp"
+                android:title="Sms Based Complaint" />
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/add_contact"
+        android:title="Trusted contacts"
+        android:icon="@drawable/ic_person_add_black_24dp"/>
+
+    <item
+        android:id="@+id/sign_out"
+        android:icon="@drawable/sign_out"
+        android:title="Sign Out" />
+
+</menu>
